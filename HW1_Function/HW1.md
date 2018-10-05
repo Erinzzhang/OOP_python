@@ -17,8 +17,9 @@
     (A-2) 一枚不公正硬幣(prob=0.4)，做k局用三個骰子決定輸贏
     ![A_2](./png/A_2.png)
 
-    (D) 實作A_2情境並輸出骰子結果
+    (D) 實作A_2情境並輸出骰子結果 <br>
     ![D](./png/D.png)
+    
 2. function :
     (B) 寫出一投擲（公正/不公正通用的）硬幣func.
     ​    input: prob, from 0.45 to 0.55, smaller -> 0.45, bigger -> 0.55
@@ -295,16 +296,16 @@ if __name__ == '__main__':
   - 調用 `listen()`、`onkey()`來進行方向鍵之移動控制
 
 
-![snake](.\png\snake2.png)
+![snake](./png/snake2.png)
 
-![snake](.\png\snake.png)
+![snake](./png/snake.png)
 
 - guess.py
   - 終極密碼
   - guess遊戲是利用`random`函式庫來產生亂數
   - `while loop`進行不斷猜測直到猜到答案
 
-![snake](.\png\guess.png)
+![snake](./png/guess.png)
 
 - flappy.py
 
@@ -313,7 +314,7 @@ if __name__ == '__main__':
   - 以`random`函式庫隨機產生障礙物
   - 呼叫`onscreenclick()`來偵測滑鼠點擊，使紅點上升
 
-  ![flappy](.\png\flappy.png)
+  ![flappy](./png/flappy.png)
 
 ---
 ## Part4 : * V.S. **
