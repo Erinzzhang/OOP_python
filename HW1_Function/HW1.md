@@ -240,7 +240,7 @@ def show(pc,player,coin_num):
 ## Part2 : Triangle Area
 給三點計算三角型面積
 
-![area](.\png\area.png)
+![area](./png/area.png)
 
 ```python
 # triangle_area.py
@@ -322,4 +322,4 @@ if __name__ == '__main__':
 - 在Python中沒有指標。
 - _*_ 是用來收集位置參數的。星號會將可變數量的潛在引數群組，變成一個參數值的tuple。
 - _**_ 是用來收集關鍵字引數。他會將關鍵字引數變成一個字典。
----
+
